@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+	<channel>
+		<title> Zemlja izlazećeg sunca </title> 
+		<link> https://ojapanu1221.github.io/html/index.html </link>
+		<description> Upoznajmo se sa kulturnom i lepotom Japana. </description>
+		
+	<item>
+		<title> Dodati novi gradovi! </title>
+		<link> https://ojapanu1221.github.io/html/gradovi.html </link>
+		<description> Spoznajmo se sa kulturom i lepotom novih gradova na nasoj stranici! </description>
+	</item>
+	</channel>
+</rss>

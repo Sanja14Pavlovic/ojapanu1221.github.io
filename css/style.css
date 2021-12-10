@@ -130,11 +130,18 @@ footer nav ul li {
 	text-shadow: 4px 2px 4px #3d1d8f;
 	font-weight: 550;
 }
+@keyframes sdesnanalevo {
+	from {left: 200%}
+	to {left: 0%}
+}
 #tokio {
 	width: 100%;
 	height: 400px;
 	background-color: none;
 	margin: 120px 0 30px 0;
+	animation-name: sdesnanalevo;
+	animation-duration: 0.9s;
+	position: relative;
 }
 #tokio img {
 	float: right;
@@ -156,11 +163,18 @@ footer nav ul li {
 	text-shadow: 5px 2px 5px #2d5743; 
 	font-style: italic;
 }
+@keyframes slevanadesno {
+	from {right: 200%}
+	to {right: 0%}
+}
 #kjoto {
 	width: 100%;
 	height: 400px;
 	background-color: none;
 	margin: 30px 0 30px 0;
+	animation-name: slevanadesno;
+	animation-duration: 0.9s;
+	position: relative;
 }
 #kjoto img {
 	float: left;
@@ -183,11 +197,18 @@ footer nav ul li {
 	text-shadow: 5px 2px 5px #2d5743; 
 	font-style: italic;
 }
+@keyframes sdesnanalevo {
+	from {left: 200%}
+	to {left: 0%}
+}
 #jokohama {
 	width: 100%;
 	height: 400px;
 	background-color: none;
 	margin: 30px 0 30px 0;
+	animation-name: sdesnanalevo;
+	animation-duration: 0.9s;
+	position: relative;
 }
 #jokohama img {
 	float: right;
@@ -210,11 +231,18 @@ footer nav ul li {
 	text-shadow: 5px 2px 5px #2d5743; 
 	font-style: italic;
 }
+@keyframes slevanadesno {
+	from {right: 200%}
+	to {right: 0%}
+}
 #osaka {
 	width: 100%;
 	height:500px;
 	background-color: none;
 	margin: 30px 0 30px 0;
+	animation-name: slevanadesno;
+	animation-duration: 0.9s;
+	position: relative;
 }
 #osaka img {
 	float: left;
@@ -237,11 +265,18 @@ footer nav ul li {
 	text-shadow: 5px 2px 5px #2d5743; 
 	font-style: italic;
 }
+@keyframes sdesnanalevo {
+	from {left: 200%}
+	to {left: 0%}
+}
 #hirošima {
 	width: 100%;
 	height: 400px;
 	background-color: none;
 	margin: 30px 0 30px 0;
+	animation-name: sdesnanalevo;
+	animation-duration: 0.9s;
+	position: relative;
 }
 #hirošima img {
 	float: right;
@@ -264,11 +299,18 @@ footer nav ul li {
 	text-shadow: 5px 2px 5px #2d5743; 
 	font-style: italic;
 }
+@keyframes slevanadesno {
+	from {right: 200%}
+	to {right: 0%}
+}
 #kumamoto {
 	width: 100%;
 	height: 400px;
 	background-color: none;
 	margin: 30px 0 30px 0;
+	animation-name: slevanadesno;
+	animation-duration: 0.9s;
+	position: relative;
 }
 #kumamoto img {
 	float: left;
@@ -291,11 +333,18 @@ footer nav ul li {
 	text-shadow: 5px 2px 5px #2d5743; 
 	font-style: italic;
 }
+@keyframes sdesnanalevo {
+	from {left: 200%}
+	to {left: 0%}
+}
 #akita {
 	width: 100%;
 	height: 400px;
 	background-color: none;
 	margin: 30px 0 30px 0;
+	animation-name: sdesnanalevo;
+	animation-duration: 0.9s;
+	position: relative;
 }
 #akita img {
 	float: right;
@@ -318,11 +367,18 @@ footer nav ul li {
 	text-shadow: 5px 2px 5px #2d5743; 
 	font-style: italic;
 }
+@keyframes slevanadesno {
+	from {right: 200%}
+	to {right: 0%}
+}
 #nagarejama {
 	width: 100%;
 	height: 600px;
 	background-color: none;
 	margin: 30px 0 0 0;
+	animation-name: slevanadesno;
+	animation-duration: 0.9s;
+	position: relative;
 }
 #nagarejama img {
 	float: left;
@@ -346,18 +402,62 @@ footer nav ul li {
 	color: #2d5743;
 	text-shadow: 5px 2px 5px #2d5743;
 }
+.forma {
+	height: 100%;
+	margin-left: 12%;
+	padding-bottom: 30px;
+}
+.forma p {
+	font-size: 50px;
+	font-family: italic;
+	color: #000000;
+	margin-left: 20%;
+	
+}
+.forma label {
+	color: #2d5743;
+	text-shadow: 5px 2px 5px #2d5743;
+	font-size: 35px;
+}
 .autor img {
-	width: 270px;
+	float: left;
+	margin-top: 50px;
+	margin-right: 40px;
+	border-radius: 15px;
 	height: 400px;
+	width: 300px;
 	margin-left: 15%;
-	margin-top:5%;
-	padding-bottom: 10%;
-	border-radius: 20px;
+	margin-top: 15%;
 }
 .tekstoautoru {
-	height: 500px;
-	width: 500px;
-	background-color: #2d5743;
+	height: 800px;
+	width: 1000px;
+	background-color: #675a7d;
 	margin-bottom: 100px;
 	float: right;
+	margin-right: 5%;
+	margin-top: 7%;
+	border-radius: 10px;
+}
+.tekstoautoru h1{
+	font-size:50px;
+	color: #ebe9f0;
+	text-shadow: 2px 2px #3d1d8f;
+	margin-left: 25%;
+	margin-top: 15%;
+}
+.tekstoautoru p{
+	font-size: 30px;
+	color: #ebe9f0;
+	text-shadow: 2px 2px #3d1d8f;
+	margin-left: 30px;
+	margin-top: 60px;
+}
+.oautoru {
+	background-image: url("../slike/pozadinaautora.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 1200px;
+	width: 100%;
+	
 }
