@@ -1,0 +1,363 @@
+*{
+	margin:0px;
+	padding:0px;
+	text-decoration: none;
+	color:#faf7fc;
+}
+body{
+	font-family: monospace;
+	font-size: 30px;
+}
+header{
+	width:100%;
+	background-image: linear-gradient(to right, rgb(4,0,8), rgb(87, 59, 112));
+	height:60px;
+	text-decoration: bold;
+}
+header nav {
+	display: flex;
+	flex-direction: row;
+	justify-content: right;
+	padding: 5px;
+	text-align: right;
+}
+header nav ul li {
+	display: inline-block;
+	padding-top: 10px;
+	padding-right: 35px;
+	font-weight: 800;
+}
+#logo {
+	padding-top: 5px;
+	width:40%;
+	height: 10%;
+	}
+ul {
+	list-style-type: none;
+}
+footer{
+	display: flex;
+	flex-direction: row;
+	justify-content: right;
+	width:100%;
+	height:60px;
+	background-image: linear-gradient(to left, rgb(4,0,8), rgb(87, 59, 112));
+}
+.pozadina{
+	padding-top:900px;
+}
+.pozadina{
+	justify-content:right;
+	background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.5)), url("../slike/pozadina.jpg");
+	background-color: rgba(0,0,0,1);
+	background-size: cover;
+	background-repeat:no-repeat;
+	margin-top: 0px;
+	width: 760px;
+	float: right;
+}
+footer nav{
+	display: flex;
+	flex-direction: row;
+	justify-content: left;
+	width: 100%;
+	text-align: center;
+}
+footer nav ul li {
+	display: inline-block;
+	padding-top: 15px;
+	padding-left: 10px;
+	margin-left: 5px;
+	margin-top: 5px;
+}
+.pozadina h1 {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  color: #ebe9f0;
+  text-shadow: 2px 2px #3d1d8f;
+  top: 15%;
+  right: 15%;
+}
+.pozadina h2 {
+  position:absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  text-shadow: 2px 2px #3d1d8f;
+  float:right;
+}
+.tekst {
+	margin-left: 400px;
+	font-size: 20px;
+}
+.futertekst{
+	font-size: 20px;
+	margin-left: 40%;
+	padding-top: 15px;
+}
+.pozadina2 .image {
+	display: flex; 
+	flex-wrap: wrap;	
+}
+.pozadina2 .image .box{	
+	padding: 20px;
+	overflow: hidden;		
+	margin-left: 160px;
+} 
+.pozadina2 .image .box img {
+	border-radius: 10px;
+	margin-top: 10px;
+}
+.pozadina2 .image .box:hover{
+	transform: scale(1.1,1.1);
+	transition: 1s transform;
+}
+.pozadina2 {
+	background-color: #e2e2e2; 
+}
+.pozadinagradovi {
+	background-color: #f5f2f0;
+}
+.pozadinagradovi .gradovi ul li {
+    display: inline-block;
+	font-style: italic;
+	padding-left: 13%;
+	padding-top: 2%;
+	font-size: 35px;
+	background-color: #f5f2f0;
+	}
+.pozadinagradovi .gradovi ul li a {
+	color: #1a2a42;
+	text-shadow: 4px 2px 4px #3d1d8f;
+	font-weight: 550;
+}
+#tokio {
+	width: 100%;
+	height: 400px;
+	background-color: none;
+	margin: 120px 0 30px 0;
+}
+#tokio img {
+	float: right;
+	margin-top: 50px;
+	margin-right: 40px;
+	border-radius: 15px;
+}
+#tokio h2 {
+	margin-left: 500px;
+	color: #0c2418;
+	margin-top: 70px;
+	font-style: oblique;
+	text-shadow: 5px 2px 5px #2d5743;
+}
+#tokio p {
+	margin-left: 40px;
+	color: #2d5743;
+	margin-top:50px;
+	text-shadow: 5px 2px 5px #2d5743; 
+	font-style: italic;
+}
+#kjoto {
+	width: 100%;
+	height: 400px;
+	background-color: none;
+	margin: 30px 0 30px 0;
+}
+#kjoto img {
+	float: left;
+	margin-top: 50px;
+	border-radius: 15px;	
+	margin-left: 50px;	
+}
+#kjoto h2 {
+	margin-left: 1200px;
+	color: #0c2418;
+	margin-top: 140px;
+	font-style: oblique;
+	text-shadow: 5px 2px 5px #2d5743;
+	padding-top: 50px;
+}
+#kjoto p {
+	margin-left: 40px;
+	color: #2d5743;
+	margin-top:50px;
+	text-shadow: 5px 2px 5px #2d5743; 
+	font-style: italic;
+}
+#jokohama {
+	width: 100%;
+	height: 400px;
+	background-color: none;
+	margin: 30px 0 30px 0;
+}
+#jokohama img {
+	float: right;
+	margin-top: 50px;
+	margin-right: 40px;
+	border-radius: 15px;
+}
+#jokohama h2 {
+	margin-left: 500px;
+	color: #0c2418;
+	margin-top: 70px;
+	font-style: oblique;
+	text-shadow: 5px 2px 5px #2d5743;
+	padding-top:30px;
+}
+#jokohama p {
+	margin-left: 40px;
+	color: #2d5743;
+	margin-top:50px;
+	text-shadow: 5px 2px 5px #2d5743; 
+	font-style: italic;
+}
+#osaka {
+	width: 100%;
+	height:500px;
+	background-color: none;
+	margin: 30px 0 30px 0;
+}
+#osaka img {
+	float: left;
+	margin-top: 50px;
+	border-radius: 15px;	
+	margin-left: 50px;
+}
+#osaka h2{
+	margin-left: 1200px;
+	color: #0c2418;
+	margin-top: 140px;
+	font-style: oblique;
+	text-shadow: 5px 2px 5px #2d5743;
+	padding-top: 50px;
+}
+#osaka p {
+	margin-left: 40px;
+	color: #2d5743;
+	margin-top:150px;
+	text-shadow: 5px 2px 5px #2d5743; 
+	font-style: italic;
+}
+#hirošima {
+	width: 100%;
+	height: 400px;
+	background-color: none;
+	margin: 30px 0 30px 0;
+}
+#hirošima img {
+	float: right;
+	margin-top: 50px;
+	margin-right: 40px;
+	border-radius: 15px;
+}
+#hirošima h2 {
+	margin-left: 500px;
+	color: #0c2418;
+	margin-top: 70px;
+	font-style: oblique;
+	text-shadow: 5px 2px 5px #2d5743;
+	padding: 30px;
+}
+#hirošima p {
+	margin-left: 40px;
+	color: #2d5743;
+	margin-top:50px;
+	text-shadow: 5px 2px 5px #2d5743; 
+	font-style: italic;
+}
+#kumamoto {
+	width: 100%;
+	height: 400px;
+	background-color: none;
+	margin: 30px 0 30px 0;
+}
+#kumamoto img {
+	float: left;
+	margin-top: 50px;
+	border-radius: 15px;	
+	margin-left: 50px;
+}
+#kumamoto h2{
+	margin-left: 1200px;
+	color: #0c2418;
+	margin-top: 140px;
+	font-style: oblique;
+	text-shadow: 5px 2px 5px #2d5743;
+	padding-top: 50px;
+}
+#kumamoto p{
+	margin-left: 40px;
+	color: #2d5743;
+	margin-top:150px;
+	text-shadow: 5px 2px 5px #2d5743; 
+	font-style: italic;
+}
+#akita {
+	width: 100%;
+	height: 400px;
+	background-color: none;
+	margin: 30px 0 30px 0;
+}
+#akita img {
+	float: right;
+	margin-top: 50px;
+	margin-right: 40px;
+	border-radius: 15px;
+}
+#akita h2{
+	margin-left: 500px;
+	color: #0c2418;
+	margin-top: 70px;
+	font-style: oblique;
+	text-shadow: 5px 2px 5px #2d5743;
+	padding-top:30px;
+}
+#akita p{
+	margin-left: 40px;
+	color: #2d5743;
+	margin-top:50px;
+	text-shadow: 5px 2px 5px #2d5743; 
+	font-style: italic;
+}
+#nagarejama {
+	width: 100%;
+	height: 600px;
+	background-color: none;
+	margin: 30px 0 0 0;
+}
+#nagarejama img {
+	float: left;
+	margin-top: 50px;
+	border-radius: 15px;	
+	margin-left: 50px;
+	margin-bottom: 50px;
+}
+#nagarejama h2 {
+	margin-left: 1200px;
+	margin-top: 10px;
+	font-style: oblique;
+	padding-top: 50px;
+	color: #2d5743;
+	text-shadow: 5px 2px 5px #2d5743;
+}
+#nagarejama p {
+	margin-left: 40px;
+	margin-top:70px; 
+	font-style: italic;
+	color: #2d5743;
+	text-shadow: 5px 2px 5px #2d5743;
+}
+.autor img {
+	width: 270px;
+	height: 400px;
+	margin-left: 15%;
+	margin-top:5%;
+	padding-bottom: 10%;
+	border-radius: 20px;
+}
+.tekstoautoru {
+	height: 500px;
+	width: 500px;
+	background-color: #2d5743;
+	margin-bottom: 100px;
+	float: right;
+}
